@@ -1,0 +1,31 @@
+<html dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Todo List App in Javascript | Oscar Smith</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script type="text/javascript" src="message.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="task-input">
+            <input id="taskText" type="text" placeholder="Add a new task" onchange="addTask('taskText')">
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span class="active" id="all">ALL</span>
+                <span id="pending">Pending</span>
+                <span id="completed">Completed</span>
+            </div>
+            <button class="clear-btn">Clear All</button>
+        </div>
+        <ul id="taskList"class="task-box"></ul>
+    </div>
+    <!--script here?-->
+</body>
+
+
+</html>
